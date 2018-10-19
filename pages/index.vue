@@ -1,6 +1,7 @@
 <template>
   <section class="main">
     <Header />
+    <Content />
     <Footer />
   </section>  
 
@@ -9,11 +10,13 @@
 <script>
 import Header from '~/components/partials/Header/header.vue'
 import Footer from '~/components/partials/Footer/footer.vue'
+import Content from '~/components/partials/Content/content.vue'
 
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    Content
   }
 }
 </script>
